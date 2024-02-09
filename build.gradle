@@ -5,5 +5,5 @@
  * To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.5/samples
  */
 task dockerBuildImage(type: Exec) {
-    commandLine "docker", "build", "-t", "test_docker_image_gradle_jenkins"
+    commandLine "docker", "build", "-t", "test_docker_image_gradle_jenkins", "."
 }
