@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+opensearch-py
+pandas
+cryptography
+openpyxl
